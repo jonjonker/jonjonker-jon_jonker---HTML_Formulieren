@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title> Contact</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+   <header>
+      <h1>Over Jón</h1>
+      <nav class="menu">
+         <ul>
+            <li class="menu-bar"><a href="index.html">Home</a></li>
+            <li class="menu-bar"><a href="about.html">Over mij</a></li>
+            <li class="menu-bar"><a href="mijn-reizen.html">Mijn Reizen</a></li>
+            <li class="menu-bar"><a href="foto.html">Fotoalbum</a></li>
+            <li class="menu-bar"><a href="contact.html">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <h2 class="black-border">Kom in contact</h2>
+
+      <form name="contact" method="POST" data-netlify="true">
+         <p>
+            <label>Naam: <br><input type="text" name="name" /></label>
+         </p>
+         <p>
+            <label>Email: <br><input type="email" name="email" /></label>
+         </p>
+         <p>
+            <label>Bericht: <br><textarea rows="10" cols="40" name="message"></textarea></label>
+         </p>
+         <p>
+            <button type="submit">Verzenden</button>
+         </p>
+      </form>
+   </main>
+
+</body>
+
+</html>
